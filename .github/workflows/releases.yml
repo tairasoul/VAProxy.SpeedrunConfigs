@@ -40,6 +40,10 @@ jobs:
         run: |
           git config --global user.email "${USER_EMAIL}"
           git config --global user.name "tairasoul"
+
+          git add ./Builds
+
+          git commit -m "Generate new zip files"
           git stash
 
           git clean -fd
@@ -51,9 +55,5 @@ jobs:
           cd Builds
 
           git pull origin builds --rebase
-
-          git add .
-
-          git commit -m "Generate new zip files"
 
           git push origin builds
