@@ -34,26 +34,13 @@ jobs:
       - name: run node.js script
         run: node github-actions-nodejs/pack.js
 
-      - name: commit to Builds branch
+      - name: commit to main branch
         env:
           USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
         run: |
           git config --global user.email "${USER_EMAIL}"
           git config --global user.name "tairasoul"
 
-          git add ./Builds
-
           git commit -m "Generate new zip files"
-          git stash
 
-          git clean -fd
-
-          git fetch origin builds || git checkout -b builds
-
-          git stash apply
-          
-          cd Builds
-
-          git pull origin builds --rebase
-
-          git push origin builds
+          git push origin main
