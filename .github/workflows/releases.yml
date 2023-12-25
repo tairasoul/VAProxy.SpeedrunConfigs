@@ -41,6 +41,8 @@ jobs:
           git config --global user.email "${USER_EMAIL}"
           git config --global user.name "tairasoul"
 
+          git add ./*/Builds
+
           git commit -m "Generate new zip files"
 
           git push origin main
