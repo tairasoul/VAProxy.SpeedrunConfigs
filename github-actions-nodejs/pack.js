@@ -22,9 +22,8 @@ if (branch == "main") {
             for (const file of files) {
                 zip.addLocalFile(`${dir}/${directory}/${build}/${file}`, undefined);
             }
-            if (!fs.existsSync(`${dir}/Builds`)) fs.mkdirSync(`${dir}/Builds`);
-            if (!fs.existsSync(`${dir}/Builds/${directory}`)) fs.mkdirSync(`${dir}/Builds/${directory}`)
-            zip.writeZip(`${dir}/Builds/${directory}/${build}.zip`);
+            if (!fs.existsSync(`${dir}/${directory}/Builds`)) fs.mkdirSync(`${dir}/${directory}/Builds`);
+            zip.writeZip(`${dir}/${directory}/Builds/${build}.zip`);
         }
     }
 }
