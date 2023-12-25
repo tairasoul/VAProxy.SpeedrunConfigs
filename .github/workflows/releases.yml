@@ -27,12 +27,10 @@ jobs:
       
       - name: setup node.js
         uses: actions/setup-node@v4.0.1
-        with:
-          cache: pnpm
 
       - name: install npm packages
-        run: pnpm i adm-zip
-
+        run: npm i adm-zip
+        
       - name: run node.js script
         run: node github-actions-nodejs/pack.js
 
