@@ -44,9 +44,9 @@ jobs:
 
           git fetch origin builds || git checkout -b builds
 
-          git add .
-
           git pull origin HEAD:builds
+
+          git add .
 
           git commit -m "Generate new zip files"
 
