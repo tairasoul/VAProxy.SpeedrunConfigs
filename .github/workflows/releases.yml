@@ -44,7 +44,7 @@ jobs:
 
           git fetch origin builds || git checkout -b builds
 
-          git pull origin builds
+          git pull origin builds --rebase
 
           git add .
 
