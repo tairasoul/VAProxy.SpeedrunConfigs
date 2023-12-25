@@ -35,7 +35,11 @@ jobs:
         run: node github-actions-nodejs/pack.js
 
       - name: commit to Builds branch
+        env:
+          USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
         run: |
+          git config --global user.email "${USER_EMAIL}"
+          git config --global user.name "tairasoul"
           cd Builds
 
           git fetch origin builds || git checkout -b builds
