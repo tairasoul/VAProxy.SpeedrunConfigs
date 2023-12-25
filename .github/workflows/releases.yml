@@ -41,8 +41,14 @@ jobs:
           git config --global user.email "${USER_EMAIL}"
           git config --global user.name "tairasoul"
           cd Builds
+          
+          git stash
+
+          git clean -fd
 
           git fetch origin builds || git checkout -b builds
+
+          git stash apply
 
           git pull origin builds --rebase
 
