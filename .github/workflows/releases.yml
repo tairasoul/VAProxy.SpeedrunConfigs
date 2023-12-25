@@ -44,10 +44,10 @@ jobs:
 
           git fetch origin builds || git checkout -b builds
 
-          git pull origin HEAD:builds
+          git pull origin builds
 
           git add .
 
           git commit -m "Generate new zip files"
 
-          git push origin HEAD:builds
+          git push origin builds
