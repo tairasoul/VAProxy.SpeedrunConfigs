@@ -8,7 +8,7 @@ if (branch == "main") {
     const dir = path.dirname(__dirname);
     const directories = fs.readdirSync(dir);
     const sorted = [];
-    const blacklist = ["README.md", "github-actions-nodejs"];
+    const blacklist = ["README.md", "github-actions-nodejs", ".git"];
     for (const sort of directories) {
         if (!blacklist.includes(sort)) {
             sorted.push(sort);
