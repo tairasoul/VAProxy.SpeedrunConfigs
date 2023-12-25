@@ -14,7 +14,7 @@ if (branch == "main") {
             sorted.push(sort);
         }
     }
-    for (const directory of directories) {
+    for (const directory of sorted) {
         const builds = fs.readdirSync(`${dir}/${directory}`);
         for (const build of builds) {
             const files = fs.readdirSync(`${dir}/${directory}/${build}`);
