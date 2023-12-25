@@ -15,7 +15,7 @@ if (branch == "main") {
         }
     }
     for (const directory of sorted) {
-        const builds = fs.readdirSync(`${dir}/${directory}`);
+        const builds = fs.readdirSync(`${dir}/${directory}`).filter((v) => v != "Builds");
         for (const build of builds) {
             const files = fs.readdirSync(`${dir}/${directory}/${build}`);
             const zip = new adm();
