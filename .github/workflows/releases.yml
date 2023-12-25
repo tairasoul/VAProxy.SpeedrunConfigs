@@ -46,6 +46,8 @@ jobs:
 
           git add .
 
+          git pull
+
           git commit -m "Generate new zip files"
 
           git push origin HEAD:builds
