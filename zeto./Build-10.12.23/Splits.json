@@ -9,8 +9,7 @@
             "ValueType": "bool",
             "Comparison": "=="
         },
-        "shouldSplitHere": "false",
-        "isFinalSplit": "true"
+        "shouldSplitHere": "true"
     },
     {
         "SplitName": "DropCutscene-Pre",
@@ -22,7 +21,8 @@
             "ValueType": "bool",
             "Comparison": "=="
         },
-        "shouldSplitHere": "false"
+        "shouldSplitHere": "false",
+        "isFinalSplit": "false"
     },
     {
         "SplitName": "Drop",
@@ -54,7 +54,8 @@
             "ValueType": "bool",
             "Comparison": "=="
         },
-        "shouldSplitHere": "false"
+        "shouldSplitHere": "false",
+        "isFinalSplit": "false"
     },
     {
         "SplitName": "Power",
@@ -78,7 +79,8 @@
             "ValueType": "bool",
             "Comparison": "=="
         },
-        "shouldSplitHere": "false"
+        "shouldSplitHere": "false",
+        "isFinalSplit": "false"
     },
     {
         "SplitName": "Sin Start",
@@ -102,7 +104,8 @@
             "ValueType": "bool",
             "Comparison": "=="
         },
-        "shouldSplitHere": "false"
+        "shouldSplitHere": "false",
+        "isFinalSplit": false
     },
     {
         "SplitName": "Eri Start",
@@ -126,7 +129,8 @@
             "ValueType": "bool",
             "Comparison": "=="
         },
-        "shouldSplitHere": "false"
+        "shouldSplitHere": "false",
+        "isFinalSplit": "false"
     },
     {
         "SplitName": "GG",
@@ -138,7 +142,6 @@
             "ValueType": "bool",
             "Comparison": "=="
         },
-        "shouldSplitHere": "true",
-        "isFinalSplit": "true"
+        "shouldSplitHere": "true"
     }
 ]
