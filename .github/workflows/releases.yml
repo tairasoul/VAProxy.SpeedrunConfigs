@@ -39,7 +39,7 @@ jobs:
           USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
         run: |
           git config --global user.email "${USER_EMAIL}"
-          git config --global user.name "tairasoul"
+          git config --global user.name "zip generator"
 
           git add ./*/Builds
 
