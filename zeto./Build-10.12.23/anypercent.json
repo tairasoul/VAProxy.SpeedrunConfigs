@@ -9,7 +9,7 @@
                         "ValueType": "bool",
                         "Comparison": "=="
                     },
-                    "splitHere": "true"
+                    "Command": "startorsplit"
                 },
                 {
                     "SplitName": "DropCutscene-Pre",
@@ -20,8 +20,7 @@
                         "Value": "true",
                         "ValueType": "bool",
                         "Comparison": "=="
-                    },
-                    "splitHere": "false"
+                    }
                 },
                 {
                     "SplitName": "Drop",
@@ -33,7 +32,7 @@
                         "ValueType": "bool",
                         "Comparison": "=="
                     },
-                    "splitHere": "true"
+                    "Command": "startorsplit"
                 },
                 {
                     "SplitName": "Death Warp",
@@ -41,7 +40,7 @@
                         "center": "4785.309 10513.42 911.0422",
                         "size": "25.7 4 25.7"
                      },
-                     "splitHere": "true"
+                     "Command": "startorsplit"
                 },
                 {
                     "SplitName": "PowerCutscene-Pre",
@@ -52,8 +51,7 @@
                         "Value": "true",
                         "ValueType": "bool",
                         "Comparison": "=="
-                    },
-                    "splitHere": "false"
+                    }
                 },
                 {
                     "SplitName": "Power",
@@ -65,7 +63,7 @@
                         "ValueType": "bool",
                         "Comparison": "=="
                     },
-                    "splitHere": "true"
+                    "Command": "startorsplit"
                 },
                 {
                     "SplitName": "SinCutscene-Pre",
@@ -76,8 +74,7 @@
                         "Value": "true",
                         "ValueType": "bool",
                         "Comparison": "=="
-                    },
-                    "splitHere": "false"
+                    }
                 },
                 {
                     "SplitName": "Sin Start",
@@ -89,7 +86,7 @@
                         "ValueType": "bool",
                         "Comparison": "=="
                     },
-                    "splitHere": "true"
+                    "Command": "startorsplit"
                 },
                 {
                     "SplitName": "SinEndingCutscene-Pre",
@@ -100,8 +97,7 @@
                         "Value": "true",
                         "ValueType": "bool",
                         "Comparison": "=="
-                    },
-                    "splitHere": "false"
+                    }
                 },
                 {
                     "SplitName": "Eri Start",
@@ -113,7 +109,7 @@
                         "ValueType": "bool",
                         "Comparison": "=="
                     },
-                    "splitHere": "true"
+                    "Command": "startorsplit"
                 },
                 {
                     "SplitName": "EriFistCutscene-Pre",
@@ -124,8 +120,7 @@
                         "Value": "true",
                         "ValueType": "bool",
                         "Comparison": "=="
-                    },
-                    "splitHere": "false"
+                    }
                 },
                 {
                     "SplitName": "GG",
@@ -137,6 +132,6 @@
                         "ValueType": "bool",
                         "Comparison": "=="
                     },
-                    "splitHere": "true"
+                    "Command": "startorsplit"
                 }
             ]
