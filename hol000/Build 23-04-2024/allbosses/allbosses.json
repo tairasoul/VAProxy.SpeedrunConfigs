@@ -1,0 +1,232 @@
+[
+    {
+        "SplitName": "StartCutscene",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Cutscene4",
+            "Property": "activeSelf",
+            "Value": "true",
+            "ValueType": "bool",
+            "Comparison": "=="
+        }
+    },
+    {
+        "SplitName": "Start",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Cutscene4",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "DropCutscene",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Cutscene6",
+            "Property": "activeSelf",
+            "Value": "true",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "pause"
+    },
+    {
+        "SplitName": "DropResume",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Cutscene6",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "resume"
+    },
+    {
+        "SplitName": "DropSplit",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Cutscene6",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "DeathWarp",
+        "splitBounds": {
+            "center": "4785.309 10513.42 911.0422",
+            "size": "25.7 4 25.7"
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "EUnit1",
+        "splitBounds": {
+            "center": "5130.498 10775.17 529.3284",
+            "size": "110 5 110"
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "EUnit2",
+        "splitBounds": {
+            "center": "3762.142 10674.57 903.3202",
+            "size": "110 5 110"
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "Babel",
+        "splitBounds": {
+            "center": "2630.393 10574.07 1659.434",
+            "size": "700 10 700"
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "PowerCutscene",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Cutscene0",
+            "Property": "activeSelf",
+            "Value": "true",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "pause"
+    },
+    {
+        "SplitName": "PowerResume",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Cutscene0",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "resume"
+    },
+    {
+        "SplitName": "PowerSplit",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Cutscene0",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "Monk",
+        "splitBounds": {
+            "center": "4655.712 10381.37 2576.124",
+            "size": "7 15 7"
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "SinCutscene",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Skip",
+            "Property": "activeSelf",
+            "Value": "true",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "pause"
+    },
+    {
+        "SplitName": "SinResume",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Skip",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "resume"
+    },
+    {
+        "SplitName": "SinSplit",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Skip",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "EriCutscene",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Cutscene1",
+            "Property": "activeSelf",
+            "Value": "true",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "pause"
+    },
+    {
+        "SplitName": "EriResume",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Skip",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "resume"
+    },
+    {
+        "SplitName": "EriSplit",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Skip",
+            "Property": "activeSelf",
+            "Value": "false",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "startorsplit"
+    },
+    {
+        "SplitName": "EriFistCutscene",
+        "splitCondition": {
+            "Name": "WasCutsceneActive",
+            "Path": "Director/Cutscene3",
+            "Property": "activeSelf",
+            "Value": "true",
+            "ValueType": "bool",
+            "Comparison": "=="
+        }
+    },
+    {
+        "SplitName": "GG",
+        "splitCondition": {
+            "Name": "CutsceneNotActive",
+            "Path": "Director/Cutscene3",
+            "Property": "activeSelf",
+            "Value": "true",
+            "ValueType": "bool",
+            "Comparison": "=="
+        },
+        "Command": "startorsplit"
+    }
+]
