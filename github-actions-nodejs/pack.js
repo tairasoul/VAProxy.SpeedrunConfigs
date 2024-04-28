@@ -17,7 +17,7 @@ for (const directory of sorted) {
         const files = fs.readdirSync(`${dir}/${directory}/${build}`);
         const zip = new adm();
         for (const file of files) {
-            if (fs.statSync(`${dir}/${directory}/${build}/${file}`).isDirectory) 
+            if (fs.statSync(`${dir}/${directory}/${build}/${file}`).isDirectory()) 
                 zip.addLocalFolder(`${dir}/${directory}/${build}/${file}`)
             else
                 zip.addLocalFile(`${dir}/${directory}/${build}/${file}`);
