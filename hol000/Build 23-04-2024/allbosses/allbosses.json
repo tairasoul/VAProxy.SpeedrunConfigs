@@ -69,24 +69,24 @@
     {
         "SplitName": "EUnit1",
         "splitBounds": {
-            "center": "5130.498 10775.17 529.3284",
-            "size": "110 5 110"
+            "center": "5124.078 10775.78 530.8302",
+            "size": "123 5 123"
         },
         "Command": "startorsplit"
     },
     {
         "SplitName": "EUnit2",
         "splitBounds": {
-            "center": "3762.142 10674.57 903.3202",
-            "size": "110 5 110"
+            "center": "3765.203 10676.87 896.9786",
+            "size": "155 5 155"
         },
         "Command": "startorsplit"
     },
     {
         "SplitName": "Babel",
         "splitBounds": {
-            "center": "2630.393 10574.07 1659.434",
-            "size": "700 10 700"
+            "center": "2727.952 10840.84 1423.411",
+            "size": "50 60 10"
         },
         "Command": "startorsplit"
     },
