@@ -6,7 +6,6 @@
                         "Path": "Director/Cutscene4",
                         "Property": "activeSelf",
                         "Value": "true",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     },
                     "Command": "startorsplit"
@@ -18,7 +17,6 @@
                         "Path": "Director/Cutscene6",
                         "Property": "activeSelf",
                         "Value": "true",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     }
                 },
@@ -29,7 +27,6 @@
                         "Path": "Director/Cutscene6",
                         "Property": "activeSelf",
                         "Value": "false",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     },
                     "Command": "startorsplit"
@@ -49,7 +46,6 @@
                         "Path": "Director/Cutscene0",
                         "Property": "activeSelf",
                         "Value": "true",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     }
                 },
@@ -60,7 +56,6 @@
                         "Path": "Director/Cutscene0",
                         "Property": "activeSelf",
                         "Value": "false",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     },
                     "Command": "startorsplit"
@@ -72,7 +67,6 @@
                         "Path": "Director/Cutscene2",
                         "Property": "activeSelf",
                         "Value": "true",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     }
                 },
@@ -83,7 +77,6 @@
                         "Path": "Director/Cutscene2",
                         "Property": "activeSelf",
                         "Value": "false",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     },
                     "Command": "startorsplit"
@@ -95,7 +88,6 @@
                         "Path": "Director/Cutscene1",
                         "Property": "activeSelf",
                         "Value": "true",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     }
                 },
@@ -106,7 +98,6 @@
                         "Path": "Director/Cutscene1",
                         "Property": "activeSelf",
                         "Value": "false",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     },
                     "Command": "startorsplit"
@@ -118,7 +109,6 @@
                         "Path": "Director/Cutscene3",
                         "Property": "activeSelf",
                         "Value": "true",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     }
                 },
@@ -129,7 +119,6 @@
                         "Path": "Director/Cutscene3",
                         "Property": "activeSelf",
                         "Value": "true",
-                        "ValueType": "bool",
                         "Comparison": "=="
                     },
                     "Command": "startorsplit"
